@@ -4,7 +4,7 @@ import "zeppelin-solidity/contracts/token/ERC20/StandardToken.sol";
 
 contract MofToken is StandardToken {
   string public name = "MofToken";
-  string public symbol = "MMC";
+  string public symbol = "MOF";
   uint public decimals = 18;
 
   function MofToken(uint initialSupply) public {
